@@ -8,7 +8,7 @@ int main() {
 
 #include <iostream>
 
-using namespace std;
+using namespace std; // for starndard variable name
 
 int main()
 {
