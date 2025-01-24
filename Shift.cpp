@@ -6,13 +6,10 @@ int main()
 {
     int a, n;
     string opt;
-
     cout << "Enter the value of a: "; 
     cin >> a;
-
     cout << "Left or Right: ";
     cin >> opt;
-
     if (opt == "left" || opt == "Left") {
         cout << "Enter the number of shifts: ";
         cin >> n;
