@@ -9,7 +9,7 @@ int main(){
     cout<<"Enter the side B: " ;
     cin>> b;
     a=pow(a,2); //a^2
-    b=pow(b,2); //b^2
+    b=pow(b,2); //b^2   
     c=sqrt(a+b); //sqrt of a square + b square
     cout<<"The Hypotonus of triangle is : "<<c;
 
