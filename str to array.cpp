@@ -1,18 +1,21 @@
 #include <iostream>
 #include <sstream>
-#include <vector>
 using namespace std;
 
 int main() {
-    int i;
     string str = "10 20 30 40 50";
-    vector<int> numbers;
-    stringstream ss(str);
-    int num;
+    int num[5];
+    int i = 0;
 
-    while (ss >> num) {
-        numbers.push_back(num);
-        
+    stringstream ss(str);
+    while (ss >> num[i]) {
+        i++;
     }
 
+    // Print the array
+    for (int j = 0; j < i; j++) {
+        cout << num[j] << " ";
+    }
+
+    return 0;
 }
