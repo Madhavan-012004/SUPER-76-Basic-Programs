@@ -5,7 +5,7 @@ using namespace std;
 
 int main()
 {
-    vector<int> arr;
+    vector<int> arr; 
     string str;
 
     getline(cin,str);
