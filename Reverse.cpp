@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-// Function to reverse a number
+// Function to reverse a number  
 int reverseNumber(int num) {
     int reversed = 0;
     while (num != 0) {
